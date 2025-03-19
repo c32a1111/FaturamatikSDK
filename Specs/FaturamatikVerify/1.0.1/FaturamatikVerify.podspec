@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "FaturamatikVerify"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Faturamatik-Verify"
   s.description  = "The Faturamatik Software Development kit (SDK) provides you complete steps to perform eKYC."
   s.homepage     = "https://github.com/c32a1111/FaturamatikVerify"
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.swift_version = '5.2'
   s.platform     = :ios, "13.0"
   s.source = { 
-    :http => "https://github.com/c32a1111/FaturamatikSDK/releases/download/1.0.0/FaturamatikVerify.xcframework.zip",
-    :sha256 => "32f160e958aa6281101b5172e522720005ed3a8b16da9945df5bb4518a91a8b0" 
+    "http" => "https://github.com/c32a1111/FaturamatikSDK/releases/download/1.0.1/FaturamatikVerify.xcframework.zip",
+    :sha256 => "6166ec05045a3d46060975afa2c3ca9debae62a71129038e51f7de7a054e1202" 
   }
   s.dependency 'OpenSSL-Universal'
   s.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit'}
