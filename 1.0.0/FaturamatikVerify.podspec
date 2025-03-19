@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   # Binary XCFramework
-  s.vendored_frameworks = "Faturamatik_XCFramework/FaturamatikVerify.xcframework"
+  s.vendored_frameworks = "FaturamatikVerify.xcframework"
 
   
 
