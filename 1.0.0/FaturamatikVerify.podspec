@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "Faturamatik-Verify"
   s.description  = "The Faturamatik Software Development kit (SDK) provides you complete steps to perform eKYC."
-  s.homepage     = "https://github.com/c32a111/FaturamatikSDK"
+  s.homepage     = "https://github.com/c32a1111/FaturamatikVerify"
   s.license      = "Copyright"
-  s.author       = "c32a11"
+  s.author       = "c32a1111"
   s.swift_version = '5.2'
   s.platform     = :ios, "13.0"
   s.source = { 
-  :git => "https://github.com/c32a1111/FaturamatikSDK.git", 
-  :branch => "master"
+    :git => "https://github.com/c32a1111/FaturamatikVerify.git", 
+    :tag => "#{s.version}"
   }
   s.source_files = "FaturamatikVerify/**/*.{h,m,swift,xib,mlpackage,mlmodel}"
   s.resources    = "FaturamatikVerify/**/Assets.xcassets/**/*.*"
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   # Binary XCFramework
-  s.vendored_frameworks = "FaturamatikVerify.xcframework"
+  s.vendored_frameworks = "Faturamatik_XCFramework/FaturamatikVerify.xcframework"
 
   
 
