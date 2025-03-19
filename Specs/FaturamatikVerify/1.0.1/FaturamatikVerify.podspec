@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "13.0"
   s.source = { 
     "http" => "https://github.com/c32a1111/FaturamatikSDK/releases/download/1.0.1/FaturamatikVerify.xcframework.zip",
-    :sha256 => "6166ec05045a3d46060975afa2c3ca9debae62a71129038e51f7de7a054e1202" 
+    :sha256 => "b995b05580008ea0ac6dc5d2555e2ee1feb10463acd7f1348fe34466e2bdc346" 
   }
   s.dependency 'OpenSSL-Universal'
   s.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit'}
