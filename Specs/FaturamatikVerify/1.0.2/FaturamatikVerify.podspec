@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.2'
   s.platform     = :ios, "13.0"
    s.source = { 
-    "http" => "https://github.com/c32a1111/FaturamatikSDK/releases/download/1.0.1/FaturamatikVerify.xcframework.zip",
+    "http" => "https://github.com/c32a1111/FaturamatikSDK/releases/download/1.0.2/FaturamatikVerify.xcframework.zip",
     :sha256 => "0a1afba3446107ffb188a32519506ce590b4d673fa2e8315633624556a2e93ea" 
   }
   s.source_files = "FaturamatikVerify/**/*.{h,m,swift,xib,mlpackage,mlmodel}"
