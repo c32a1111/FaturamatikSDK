@@ -19,9 +19,11 @@ Pod::Spec.new do |s|
   s.swift_version = '5.2'
   s.platform     = :ios, "13.0"
   s.source = { 
-    :http => "https://github.com/c32a1111/FaturamatikSDK/releases/download/1.0.0/FaturamatikVerify.xcframework.zip",
-    :sha256 => "32f160e958aa6281101b5172e522720005ed3a8b16da9945df5bb4518a91a8b0" 
+    "http" => "https://github.com/c32a1111/FaturamatikSDK/releases/download/1.0.0/FaturamatikVerify.xcframework.zip",
+    :sha256 => "c1609765cf9558094f64cedbdd3d3f6764779e39bc681ff35d2de1a5ec5dc342" 
   }
+  s.source_files = "FaturamatikVerify/**/*.{h,m,swift,xib,mlpackage,mlmodel}"
+  s.resources    = "FaturamatikVerify/**/Assets/**/*.*"
   s.dependency 'OpenSSL-Universal'
   s.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit'}
   s.ios.deployment_target = '13.0'
